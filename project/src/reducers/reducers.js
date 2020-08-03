@@ -4,7 +4,7 @@ const initialState = {
     players: [],
     insFetching:false,
     isPosting: false,
-    erro:''
+    error:''
 }
 
 const playerReducer = (state=initialState, actions)=>{
